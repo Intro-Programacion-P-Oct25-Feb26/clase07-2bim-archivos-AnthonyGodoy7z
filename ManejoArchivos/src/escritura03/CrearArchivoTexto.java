@@ -24,6 +24,10 @@ public class CrearArchivoTexto {
         }
 
     } // fin método agregarRegistros
+
+    public static void agregarRegistros(String cadenaFinal, String cedula) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
 } // fin de la clase CrearArchivoTexto
 

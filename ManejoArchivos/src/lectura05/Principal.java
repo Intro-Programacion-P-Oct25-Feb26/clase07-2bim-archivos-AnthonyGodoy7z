@@ -13,7 +13,5 @@ import lectura05.Estadistica;
 public class Principal {
 
     public static void main(String args[]) {
-
-        Estadistica.reporte();
     }
 }
