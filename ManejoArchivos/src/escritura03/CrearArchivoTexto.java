@@ -11,7 +11,7 @@ public class CrearArchivoTexto {
     public static void agregarRegistros(String valor) {
         try {
             FileOutputStream fos = new FileOutputStream("data/salidaDatosPersonales002.txt", true); // true = append
-            OutputStreamWriter osw = new OutputStreamWriter(fos);
+            OutputStreamWriter osw = new OutputStreamWriter(fos);// estos dos sirven para almacenar en el mismo archivos mas informacion
             Formatter salida = new Formatter(osw);
             
             salida.format("%s", valor);
